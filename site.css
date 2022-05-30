@@ -30,7 +30,7 @@ background-color: red;
 }
 
 .link{
-color: aquamarine;    
+color: black;    
 }
 
 #contact-link{
@@ -40,3 +40,13 @@ color: blanchedalmond
 p:hover { 
 color: blueviolet;    
 }
+
+h1 {width: 400px;
+    margin: 0 auto;
+}
+
+a { font-family:'Times New Roman', Times, serif;
+}
+
+h1 { font-family: 'Times New Roman', Times, serif;
+font-size: 40px;}
