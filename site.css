@@ -1,0 +1,42 @@
+/*
+1. Element Selector - bütün elementlere etki eder
+2. Class Selector
+3. ID Selector
+ID>Class>Element
+
+*/
+
+
+h2{
+color: grey;    
+background-color: aqua;
+}
+
+.bg-dark{
+background-color: black;
+} 
+
+.text-yellow{
+color: bisque;
+}
+
+.text-primary{
+color: #bcbcbc
+}
+
+#ozel-p-elementi{
+color: yellow;
+background-color: red;
+}
+
+.link{
+color: aquamarine;    
+}
+
+#contact-link{
+color: blanchedalmond
+;}
+
+p:hover { 
+color: blueviolet;    
+}
