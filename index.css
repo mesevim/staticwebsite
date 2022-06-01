@@ -1,10 +1,30 @@
+
+a { color: rgb(74, 78, 78);text-decoration: none; }
+
+#left {display: inline-block;}
+
+#left>img {
+width: 100px
+}
+
+#left>a { margin-left: 15px;
+}
+
+#right { display: inline-block;
+text-align: end;
+width: 50%;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+}
 /*
 1. Element Selector - bütün elementlere etki eder
 2. Class Selector
 3. ID Selector
 ID>Class>Element
-
-*/
 
 a:hover {color: blueviolet;}
 
@@ -51,3 +71,4 @@ a { font-family:'Times New Roman', Times, serif;
 
 h1 { font-family: 'Times New Roman', Times, serif;
 font-size: 40px;}
+*/
