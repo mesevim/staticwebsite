@@ -1,13 +1,17 @@
 
 a { color: rgb(74, 78, 78);text-decoration: none; }
 
-#left {display: inline-block;}
+#left {display: inline-block;
+width: 50%;}
 
 #left>img {
 width: 100px
 }
 
 #left>a { margin-left: 15px;
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #right { display: inline-block;
@@ -20,6 +24,12 @@ width: 50%;
     margin: 0 auto;
     background-color: antiquewhite;
 }
+
+.picture {
+    margin: 0 auto;
+    width: 750px
+    ;}
+
 /*
 1. Element Selector - bütün elementlere etki eder
 2. Class Selector
