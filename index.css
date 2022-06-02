@@ -27,9 +27,27 @@ width: 50%;
 
 .picture {
     margin: 0 auto;
-    width: 750px
+    width: 750px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     ;}
 
+#dis-element {
+height: 150px;
+width: 750px;
+margin: 0 auto;
+}    
+
+.ic-element {
+height: 150px;
+width: 180px;
+background-color: rgb(211, 211, 230);
+display: inline-block;
+color: rgb(17, 20, 20);
+margin-top: 60px;
+margin-left: 35px;
+margin-right: 32px;
+}
 /*
 1. Element Selector - bütün elementlere etki eder
 2. Class Selector
