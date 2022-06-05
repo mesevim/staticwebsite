@@ -42,5 +42,17 @@ body {
 }
 #left>img { 
     width: 100px;
+    margin-left: -20px;
+
+}
+.nav a::after {
+        content:"";
+        background-color: black;
+        width: 0%;
+        display: block;
+        height: 2px;
+}
+.nav a:hover::after{
+        width: 100%;
 
 }
